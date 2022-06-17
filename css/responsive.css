@@ -1,0 +1,145 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-collapse {
+        left: 0;
+        padding: 0;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        backface-visibility: hidden;
+    }
+    nav .accordion-menu {
+        padding: 26px 15px 26px 15px;
+    }
+    nav .accordion-menu {
+        position: initial;
+    }
+    nav.navbar .navbar-nav {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(23, 23, 23, 0.95);
+        padding-right: 1px;
+    }
+    nav.navbar .navbar-nav li {
+        display: block;
+        clear: both;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        border-top: 0;
+    }
+    .navbar-nav li > a, nav.navbar.navbar-default ul.nav > li > a {
+        margin: 0;
+        padding: 13px 15px 13px;
+        color: #c0b5b5;
+        display: block;
+        line-height: normal;
+    }
+    header.sticky nav.navbar .navbar-nav > li > a.active{
+        color: rgba(255,255,255,0.6);
+    }
+    header.sticky nav ul.nav > li > a:hover {
+        color: #c0b5b5;
+    }
+    header.sticky nav ul.nav > li.dropdown > div.dropdown-menu {
+        background-color: rgba(0,0,0,0.9);
+    }
+    header.sticky nav ul.nav > li.dropdown > div.dropdown-menu > a{
+        color: rgba(255,255,255,0.7);
+    }
+    header nav ul.nav > li.dropdown > div.dropdown-menu > a {
+        border-bottom: solid 1px #565656;
+        padding: 7px 0px 7px 30px;
+    }
+    header nav ul.nav > li.dropdown > div.dropdown-menu > a:last-child {
+        border-bottom: none;
+    }
+    header.sticky nav ul.nav > li.dropdown > div.dropdown-menu > a {
+        border-bottom: solid 1px #565656;
+        padding: 7px 0px 7px 30px;
+    }
+    header.sticky nav ul.nav > li.dropdown > div.dropdown-menu > a:last-child {
+        border-bottom: none;
+    }
+    .sales_wrapper {
+        color: #ffffff;
+        width: 85%;
+        margin: 60px auto;
+        padding: 30px 30px;
+    }
+    .sales_right_wrapper {
+        color: #6f6f6f;
+        padding: 50px 15px;
+    }
+    .address_wrapper {
+        margin-bottom: 25px;
+    }
+    .hero_carousal {
+        padding: 0px;
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-height: 320px) {
+    nav.navbar.bootsnav.no-full .navbar-collapse {
+        max-height: 240px;
+    }
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .social-icon ul {
+        display: inline-flex;
+        padding: 10px 5px;
+    }
+    section.video {
+        height: auto;
+    }    
+    section.video .container {
+        top: 100px;
+    }
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero_carousal .carousel-caption {
+        bottom: 25%;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hero_carousal .carousel-caption {
+        bottom: 30%;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
